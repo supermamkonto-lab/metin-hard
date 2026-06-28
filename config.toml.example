@@ -1,0 +1,11 @@
+[credentials]
+username = "login"
+password = "hasło"
+pin = "12345"
+
+[output]
+directory = "C:\\Users\\user\\Documents\\metin_logs"
+
+[scraper]
+timeout_ms = 30000
+page_load_delay_ms = 1000

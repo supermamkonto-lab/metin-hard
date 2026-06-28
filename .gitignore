@@ -1,0 +1,15 @@
+# Secrets
+config.toml
+
+# Output
+C:\METIN-HARD\
+*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/

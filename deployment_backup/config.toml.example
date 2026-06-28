@@ -1,0 +1,11 @@
+[credentials]
+username = "TWOJ_LOGIN"
+password = "TWOJE_HASLO"
+pin = "12345"
+
+[output]
+directory = "output"
+
+[scraper]
+timeout_ms = 30000
+page_load_delay_ms = 1000

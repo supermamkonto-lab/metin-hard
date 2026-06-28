@@ -1,0 +1,30 @@
+
+  ==========================================
+  METIN HARD Log Extractor
+  ==========================================
+
+  [1/4] Logowanie do panelu UCP...
+        OK
+  [2/4] Wykrywanie postaci...
+        Znaleziono: 2 postaci
+  [3/4] Pobieranie logow sprzedazy...
+        - awsuk... 0 wpisow
+        - MiesoMielone... 145 wpisow
+  [4/4] Eksport do plikow...
+        MiesoMielone_28_06_2026_17_27.xlsx
+        MiesoMielone_28_06_2026_17_27.csv
+
+  ==========================================
+  Metin HARD Log Extractor Ś Eksport zakonczony
+  ==========================================
+
+  Postaci:          2
+  Rekordow:         145
+  Data eksportu:    17:27 2026-06-28
+
+  Pliki:
+    MiesoMielone_28_06_2026_17_27.xlsx  (Excel)
+    MiesoMielone_28_06_2026_17_27.csv   (CSV)
+
+  Status: SUCCESS
+  ==========================================

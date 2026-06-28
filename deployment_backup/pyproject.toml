@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metin-hard-ucp-scraper"
+version = "0.1.0"
+description = "Automatyczny scraper logów sprzedaży z panelu UCP serwera Metin2 (projekt-hard.eu)"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright==1.52.0",
+    "openpyxl>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "hypothesis>=6.82.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

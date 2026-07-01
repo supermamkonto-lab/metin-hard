@@ -1,15 +1,41 @@
 # Secrets
 config.toml
 
-# Output
-C:\METIN-HARD\
+# Output files
+output/
 *.xlsx
 *.csv
+
+# Logs
+logs/
 
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Test artifacts
+.hypothesis/
+.pytest_cache/
 
 # IDE
 .vscode/
 .idea/
+
+# Backup
+backup/
+OLD_v1.0/
+
+# Grafika zastrzezona (projekt-hard.eu) - zostaje tylko lokalnie na dysku,
+# nigdy nie trafia do repozytorium. Aplikacja dziala poprawnie bez niej
+# (patrz gui.py: _load_image sprawdza czy plik istnieje i pomija go,
+# jesli go brak).
+MetinHardLog_v2.0/src/ph1.png
+MetinHardLog_v2.0/src/ph2.png
+
+# Wygenerowane archiwum dystrybucyjne (bonus, nie zamiast repo)
+MetinHardLog_v2.0.zip
+
